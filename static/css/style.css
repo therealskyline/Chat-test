@@ -3,54 +3,54 @@
     height: 60vh;
     overflow-y: auto;
     padding: 1rem;
-}
-
-.message {
+  }
+  
+  .message {
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 0.25rem;
-}
-
-.message .timestamp {
+  }
+  
+  .message .timestamp {
     font-size: 0.8rem;
     color: var(--bs-secondary);
-}
-
-.message .username {
+  }
+  
+  .message .username {
     font-weight: bold;
     color: var(--bs-info);
-}
-
-.chat-container {
+  }
+  
+  .chat-container {
     height: 80vh;
     display: flex;
     flex-direction: column;
-}
-
-.chat-container .card-body {
+  }
+  
+  .chat-container .card-body {
     flex: 1;
     display: flex;
     flex-direction: column;
-}
-
-.messages-container {
+  }
+  
+  .messages-container {
     flex: 1;
     overflow-y: auto;
-}
-
-#message-form {
+  }
+  
+  #message-form {
     margin-top: auto;
-}
-
-.chat-thumbnail {
+  }
+  
+  .chat-thumbnail {
     max-width: 100px;
     max-height: 100px;
     cursor: pointer;
     border-radius: 5px;
     margin: 5px 0;
-}
-
-.media-popup {
+  }
+  
+  .media-popup {
     position: fixed;
     top: 0;
     left: 0;
@@ -62,15 +62,15 @@
     align-items: center;
     z-index: 1000;
     cursor: pointer;
-}
-
-.popup-content {
+  }
+  
+  .popup-content {
     max-width: 90%;
     max-height: 90vh;
     object-fit: contain;
-}
-
-.video-thumbnail {
+  }
+  
+  .video-thumbnail {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -78,42 +78,43 @@
     background: rgba(var(--bs-primary-rgb), 0.1);
     border-radius: 5px;
     margin: 5px 0;
-}
-
-.video-thumbnail i {
+  }
+  
+  .video-thumbnail i {
     font-size: 24px;
     color: var(--bs-primary);
-}
-
-.video-thumbnail span {
+  }
+  
+  .video-thumbnail span {
     color: var(--bs-body-color);
     word-break: break-all;
-}
-
-.progress-bar {
+  }
+  
+  .progress-bar {
     margin: 10px 0;
     padding: 10px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-}
-
-.progress {
+  }
+  
+  .progress {
     width: 100%;
     height: 20px;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
-}
-
-.progress-value {
+  }
+  
+  .progress-value {
     width: 0;
     height: 100%;
     background: var(--bs-primary);
     transition: width 0.3s ease;
-}
-
-.progress-text {
+  }
+  
+  .progress-text {
     text-align: center;
     margin-top: 5px;
     font-size: 14px;
-}
+  }
+  

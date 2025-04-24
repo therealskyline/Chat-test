@@ -66,8 +66,10 @@ def send():
         return jsonify({'error': 'Message is required'}), 400
 
     timestamp = datetime.now().strftime('%H:%M:%S')
+    # Stocker le username au moment de l'envoi du message
+    sender_username = session.get('username')
     messages.append({
-        'username': session['username'],
+        'username': sender_username,
         'message': message,
         'timestamp': timestamp
     })

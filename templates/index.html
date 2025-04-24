@@ -10,7 +10,6 @@
 </head>
 <body>
     <div class="container py-4">
-        <!-- Login Form -->
         <div id="loginForm" class="row justify-content-center" {% if connected %}style="display: none;"{% endif %}>
             <div class="col-md-6">
                 <div class="card">
@@ -31,7 +30,6 @@
             </div>
         </div>
 
-        <!-- Chat Interface -->
         <div id="chatInterface" class="row" {% if not connected %}style="display: none;"{% endif %}>
             <div class="col-md-9">
                 <div class="card chat-container">
